@@ -1,0 +1,7 @@
+result,primary_value,min_QC_value,max_QC_value,n_significant_sets,n_sets,stability
+FOC E4 VIS inferential signal,0.004410631954669952,0.004410631954669952,0.004466221667826176,6.0,6,Stable
+FOC_E1_H6_Margen_full_PLSDA,0.859375,0.859375,0.859375,,6,Stable
+FOC_E4_wholeplant_VIS_SVM,0.703125,0.703125,0.703125,,6,Stable
+FOC_E5_wholeplant_full_LogReg,0.7989417989417988,0.7321428571428571,0.8035714285714286,,6,Moderately sensitive
+Coinoc_E4_wholeplant_VIS_SVM,0.78125,0.765625,0.78125,,6,Stable
+Rad_E6_wholeplant_full_SVM,0.8125,0.75,0.8125,,6,Moderately sensitive

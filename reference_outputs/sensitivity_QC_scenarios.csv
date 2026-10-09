@@ -1,0 +1,7 @@
+set,n_spectra,definition
+S0_Primary_temporal,2703,Primary analysis: QC-clean spectra; E5 Block 7 excluded.
+S1_Reinclude_E5B7,2761,Reintroduces QC-valid spectra from E5 Block 7 only.
+S2_Reinclude_duplicates,2800,Reintroduces exact-duplicate spectra; low-signal and E5-B7 remain excluded.
+S3_Reinclude_low_signal,2714,Reintroduces low-signal spectra; exact duplicates and E5-B7 remain excluded.
+S4_All_observed_noE5B7,2813,"All observed spectra, including duplicate/low-signal flags, but E5-B7 excluded."
+S5_All_observed,2873,"All observed spectra included, including E5-B7, exact duplicates and low-signal spectra."

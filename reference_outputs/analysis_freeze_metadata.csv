@@ -1,0 +1,17 @@
+field,frozen_value
+freeze_version,v1
+primary_dataset,banana_spectral_analysis_temporal_primary.csv
+primary_spectra_n,2703
+primary_excluded_E5_block7,yes
+primary_excludes_exact_duplicates,yes
+primary_excludes_low_signal,yes
+biological_unit,plant
+primary_inference,block-paired / block-aware
+ML_validation,Leave-One-Block-Out
+main_confirmatory_result,FOC R1-only E4 VIS 400–700 nm
+main_result_mean_deltaR,0.00441
+main_result_relative_difference,~9.9% vs control
+main_result_exact_p,0.0078125
+main_result_Holm_p,0.0390625
+single_band_claim,none; no wavelength survives maxT FWER
+infection_wording,use inoculated / inoculation status unless pathology confirmation becomes available

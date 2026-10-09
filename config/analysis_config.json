@@ -1,0 +1,48 @@
+{
+  "wavelength_min_nm": 350,
+  "wavelength_max_nm": 2500,
+  "regions": {
+    "VIS_400_700": [
+      400,
+      700
+    ],
+    "RedEdge_680_750": [
+      680,
+      750
+    ],
+    "NIR_751_1300": [
+      751,
+      1300
+    ],
+    "SWIR1_1301_1900": [
+      1301,
+      1900
+    ],
+    "SWIR2_1901_2500": [
+      1901,
+      2500
+    ]
+  },
+  "sg_window": 21,
+  "sg_polyorder": 2,
+  "sg_delta_nm": 1.0,
+  "logistic": {
+    "C": 1.0,
+    "penalty": "l2",
+    "solver": "liblinear",
+    "class_weight": "balanced",
+    "max_iter": 5000
+  },
+  "svm_rbf": {
+    "C": 1.0,
+    "gamma": "scale",
+    "kernel": "rbf",
+    "class_weight": "balanced"
+  },
+  "pls_da": {
+    "n_components": 5,
+    "threshold": 0.5
+  },
+  "validation": "leave-one-block-out",
+  "hyperparameter_selection": "fixed_before_LOBO-CV; no tuning; no nested CV"
+}
